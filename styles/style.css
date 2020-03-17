@@ -1,0 +1,137 @@
+body{
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.illustration {
+  width: 60%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+/* Title section */
+.row {
+  padding: 7% 1% 7%;
+}
+
+/* Content section */
+#content{
+  background-color: #f9f8fe;
+}
+
+.avatar-image {
+  border-radius: 100px;
+  width: 3rem;
+}
+
+#background-image{
+  width: 100%;
+}
+
+.illustration-col {
+  text-align: right;
+}
+
+.customer-review {
+  display: inline;
+}
+
+.card {
+  box-shadow: 0 0 10px 1px lightgrey;
+  width: 30rem;
+}
+
+/* Subscription section */
+#subscription {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+}
+
+/* Contact section */
+#contact {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  line-height: 2.5;
+}
+
+.contact-details {
+  display: inline;
+}
+
+.contact-column-logo{
+  padding-left: 4%;
+}
+
+.contact-column{
+  padding: 4% 4% 0;
+}
+
+#contact a{
+  color: #fff;
+}
+
+.contact-row{
+  padding-bottom: 3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+  #title, #content, .illustration-col {
+    text-align: center;
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .form-controls {
+    margin: 1%;
+  }
+
+  .card {
+    width: 18rem;
+  }
+
+  .customer-review {
+    display: block;
+  }
+
+  .contact-column-socialmedia{
+    text-align: center;
+  }
+
+  .contact-column, .contact-column-logo{
+    padding: 7%;
+  }
+}
+
+/* Apply padding to all sections */
+#title, #content, #subscription{
+  padding: 3%;
+}
